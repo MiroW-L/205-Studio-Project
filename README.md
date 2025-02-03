@@ -58,7 +58,7 @@ text(words, 20, 50);
 
 }
 ```
-### Actually this isn't the correct code I wanted to use, I found the code I needed in [Workshop 4](https://github.com/MiroW-L/Workshop-4) that Ghen helped me with
+### Actually this isn't the correct code I wanted to use, the code I needed I found in [Workshop 4](https://github.com/MiroW-L/Workshop-4) that Ghen helped me with
 ``` 'javascript'
 let theInput;
 let font1;
