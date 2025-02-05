@@ -164,3 +164,6 @@ writing.push(userLine);
 <img width="575" alt="Screenshot 2025-02-04 at 6 27 06 PM" src="https://github.com/user-attachments/assets/19ff7bd9-502f-4606-9b8c-e1d98aae5490" />
 
 ### My intention would to be to either fork on of Alice Lee or Sienna's works to then figure out how to make scenarios, however I am worried that it will be mostly copying on my behalf so I will find an alternative before presenting what ideas I have to him.
+- Other ideas I had included youtube videos to help generate scenarios that would help create some sort of story narrative, I will talk to Leo about this but I feel upon reflection in might be worth not forking work but instead finding the pieces I need in others code or guides and then making sure to appropriately code and reference the help I got. [This video](https://www.youtube.com/watch?v=cQNyYx2fZXw&list=PLCAMRz6LHBZ8zgbUgDWiW0hnxy6bbfQCA&index=9) was sort of the inspiration to grind out the code so that I understood it rather than trying to cut corners which I feel I have done previously.
+
+## 5/2/25
