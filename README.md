@@ -167,3 +167,4 @@ writing.push(userLine);
 - Other ideas I had included youtube videos to help generate scenarios that would help create some sort of story narrative, I will talk to Leo about this but I feel upon reflection in might be worth not forking work but instead finding the pieces I need in others code or guides and then making sure to appropriately code and reference the help I got. [This video](https://www.youtube.com/watch?v=cQNyYx2fZXw&list=PLCAMRz6LHBZ8zgbUgDWiW0hnxy6bbfQCA&index=9) was sort of the inspiration to grind out the code so that I understood it rather than trying to cut corners which I feel I have done previously.
 
 ## 5/2/25
+- I have found this incredible [p5.js example](https://editor.p5js.org/mbardin/sketches/lSYhg5Xr) of different game states which is incredible because it will help me make different scenarios without havning to code too much with HTMl or CSS as I've seen with some other advice given online.
