@@ -209,7 +209,7 @@ writing.push(userLine);
 - I am a little worried that this code isn't as robust as I'd like it to be so i might try look into alternatives, otherwise I will continue using this method. Also I haven't figured out how to make one button be the reaction that continues the story, although I might try pivoting to using buttons. I will ask Leo about this as well as researching it for myself.
 <img width="1512" alt="Screenshot 2025-02-11 at 4 53 02 PM" src="https://github.com/user-attachments/assets/3ed28348-8825-47b0-8ee4-0e29587eb697" />
 While I waited for Leo to reply I looked at the code of Alice Lee and Sienna to see if any of their code could solve my issues or create a new solution.
-Upon reading Alice Lee's reflection at the bottom of her [Workshop 4](https://github.com/glovving/workshop-task-4) repository, she said:
+Upon reading Alice Lee's reflection at the bottom of her Workshop 4 repository, she said:
 
 ``I ended up using so many if/else statements, each time callin and individual function, when I should have been calling functions within functions where possible. I want to improve on this aspect as I feel like my code is not as robust as it could be and overly long.``
 
