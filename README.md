@@ -235,3 +235,4 @@ function tryAgainScreen() {
   buttonYes.hide();
 }
 ```
+And fantastically Leo emailed me back with an amazing example of summoning a scene by using functions in [this p5.js sketch](https://editor.p5js.org/leo_br/sketches/-GG4SpE69). Now I will use both of these to design my scenarios and then try add some more of my past work to make some sort of skeleton for my story to launch from
