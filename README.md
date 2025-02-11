@@ -213,4 +213,25 @@ Upon reading Alice Lee's reflection at the bottom of her Workshop 4 repository, 
 
 ``I ended up using so many if/else statements, each time callin and individual function, when I should have been calling functions within functions where possible. I want to improve on this aspect as I feel like my code is not as robust as it could be and overly long.``
 
-And that makes me think I should also pivot to using functions rather than layering if/else statements.
+And that makes me think I should also pivot to using functions rather than layering if/else statements. Luckily I found something really helpful to help get me started in Sienna's work:
+``` "javascript"
+function homeScreen() {
+  background(163, 232, 255);
+  fill(0);
+  textAlign(CENTER, CENTER);
+  text("would you like to be under the sea?", 200, 100);
+  buttonYes.show();
+  buttonNo.show();
+
+}
+
+function tryAgainScreen() {
+  background(0);
+  fill(255, 255, 255);
+  textAlign(CENTER, CENTER);
+  text("wrong", 200, 200);
+  setTimeout(homeScreen, 2000)
+  buttonNo.hide();
+  buttonYes.hide();
+}
+```
