@@ -204,3 +204,8 @@ writing.push(userLine);
 
 ### Making the Story
 
+### Starting putting all the code together
+- Thanks to that p5.js example I found by Matthew Bardin, I was able to start by making a sequence of three "states" which reacted to my button input which was great. Now I was to start personalising my story as well as adding more reactions.
+- I am a little worried that this code isn't as robust as I'd like it to be so i might try look into alternatives, otherwise I will continue using this method. Also I haven't figured out how to make one button be the reaction that continues the story, although I might try pivoting to using buttons. I will ask Leo about this as well as researching it for myself.
+<img width="1512" alt="Screenshot 2025-02-11 at 4 53 02 PM" src="https://github.com/user-attachments/assets/3ed28348-8825-47b0-8ee4-0e29587eb697" />
+
