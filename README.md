@@ -248,7 +248,9 @@ And fantastically Leo emailed me back with an amazing example of summoning a sce
 <img width="1080" alt="Week 5 Needs" src="https://github.com/user-attachments/assets/0b802594-eca8-4beb-a588-438c7ee40b54" />
 
 ### More Coding
-- I was struggling to utilise Leo' feedback in my work so I looked for help online and I found [this p5.js tutorial](https://p5js.org/tutorials/organizing-code-with-functions/) which helped me make my code tidier and easier to work with. put photo here
+- I was struggling to utilise Leo' feedback in my work so I looked for help online and I found [this p5.js tutorial](https://p5js.org/tutorials/organizing-code-with-functions/) which helped me make my code tidier and easier to work with.
+  ![image](https://github.com/user-attachments/assets/425596ca-7a1a-4c7c-af40-9991cbc166f7)
+
 
 ### Making the Story
-I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file]()
+I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file]
