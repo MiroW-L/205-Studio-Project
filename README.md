@@ -211,7 +211,9 @@ writing.push(userLine);
 While I waited for Leo to reply I looked at the code of Alice Lee and Sienna to see if any of their code could solve my issues or create a new solution.
 Upon reading Alice Lee's reflection at the bottom of her Workshop 4 repository, she said:
 
-``I ended up using so many if/else statements, each time callin and individual function, when I should have been calling functions within functions where possible. I want to improve on this aspect as I feel like my code is not as robust as it could be and overly long.``
+``
+I ended up using so many if/else statements, each time callin and individual function, when I should have been calling functions within functions where possible. I want to improve on this aspect as I feel like my code is not as robust as it could be and overly long.
+``
 
 And that makes me think I should also pivot to using functions rather than layering if/else statements. Luckily I found something really helpful to help get me started in Sienna's work:
 ``` "javascript"
