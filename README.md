@@ -181,18 +181,21 @@ writing.push(userLine);
 - I asked Leo about forking someone elses code and he said we'd need to talk about it
 <img width="575" alt="Screenshot 2025-02-04 at 6 27 06 PM" src="https://github.com/user-attachments/assets/19ff7bd9-502f-4606-9b8c-e1d98aae5490" />
 
+
 ### My intention would to be to either fork on of Alice Lee or Sienna's works to then figure out how to make scenarios, however I am worried that it will be mostly copying on my behalf so I will find an alternative before presenting what ideas I have to him.
 - Other ideas I had included youtube videos to help generate scenarios that would help create some sort of story narrative, I will talk to Leo about this but I feel upon reflection in might be worth not forking work but instead finding the pieces I need in others code or guides and then making sure to appropriately code and reference the help I got. [This video](https://www.youtube.com/watch?v=cQNyYx2fZXw&list=PLCAMRz6LHBZ8zgbUgDWiW0hnxy6bbfQCA&index=9) was sort of the inspiration to grind out the code so that I understood it rather than trying to cut corners which I feel I have done previously.
 
 ## Beginning Artist and Text Research
-### Trying to write about my struggles with reading the chapter on Interactive Art
+### Trying to write about my struggles with reading the chapter on Interactive Art (Draft)
 - Trying to read that chapter on Interactive Art was really philosophical in that it makes lots of ideas and such but for a reader such as myself it's really overwhelming, some of it makes sense, and other parts are farely hard to understand, and that's not a jab at the author, but, I think, as someone who has previously never approached this type of digital artistic style and hasn't learnt about the theory before, it's not the easiest for someone trying to pick up for the first time. And all the ideas seem fine but it really feels quite bloated with too much jargon that goes in one ear and out the next. I think if you care about bringing forward and spreading concepts with people you need to make it understandable for most people. Now I understand that a book never has to be something that is universally understandable, just as every great work of artistic human expression, however I think the pieces that connect people and get people excited about ideas are the ones that don't really need to explain themselves several times. Like I understand if there was a word quota however some of it feels so devoid of human emotion, it makes the divide between digital and human feel wider because what I am reading isn't very moving or seems more interested about specifics than genuinely appreciating the artists and artworks being discussed. In my opinion, theory is a tool used to empower actions, motives, agency, and when it becomes the focal point it kind of takes away from the greatness of the piece. And I'm not saying that theory isn't incredible, I'm trying to say that theory should be championed through art and creativity of the artist. By writing and explaining everything, the wonder is gone, the thrill is gone, and completely, algorithmically digesting everything it has to offer no longer makes it an interesting subject. To me it seems like it's just gushing over seeing yourself on a screen and how that's not you on the screen that's the imaginary you and the shadow you make is just the perception of your body in the light, boring self-masturbatory nothingness.
 
-### Artist Research: Olia Lialina
+### Artist Research: Olia Lialina (Draft)
 - What I have really enjoyed actually seeing and understanding is the work and art of [Olia Lialina](https://art.teleportacia.org/#CenterOfTheUniverse) and how she uses the digital world to craft stories and intellegent scenes that don't overstay their welcome. This is an incredible skill which she displays in multiple works, whether it's in [Zombie & Mummy's](https://www.zombie-and-mummy.org) flash game grime, the film noir sadness of [My boyfriend came home from the war. After dinner they left us alone.](http://www.teleportacia.org/war/) or the sci-fi thriller that is [Agatha Appears](https://pad.profolia.org/agatha). All of her works that I have so far seen have a human soul that beats through, and sure it's great to have a theoritical ideology or agenda going on behind it but what I appreciate the most about these works and this artist is that she makes cool art that really isn't like anything I've seen before. And what I think is the most incredible thing about it is that after a month of so of training on p5.js and VS Code, I feel like I could be able to aspire to make work like her or going in the same direction of her works. It is creative, it is DIY, it is person to person connection on the internet. It is both interactive and storytelling and this is essential because to me with out one or the other the fun gets lost. The love for point and click video games comes from the natural human urge that is curiousity, this is present in Olia's work and it pushes forward the urge to explore the digitally created space. A narritive, an idea, these are things that people care about in all media, it's simple as that, and to me what's pretty incredible about these works is that they're floated around on the internet still, able to be viewed by [different audiences](https://www.frieze.com/article/olia-lialinas-web-based-narrative-parable-digital-development). Why I love this is plain and simple, this was made by a person about people, sure the medium is one not yet properly treaded(and that's a full discussion in itself) but it doesn't take away from the inventiveness. I do think that it's so creative because in the 1990s computers hadn't been adopted fully into society, specifically the personal lives of people. And I think the arms race between Apple/Microsoft/etc to familliarize the world to the internet, said internet was the wild west, societies hadn't yet developed, social tribalisation was the norm, and at the time, the computer was seen as a tool (and society nowadays should remind themselves of that) but this shows it as capable of developing human art. Also to add, the way Olia discusses the web as a tool for art is really interesting because it feels relevant to how society, online communities, and [artist expression online](https://www.guggenheim.org/articles/author/olia-lialina) has evolved over time. It is really refreshing to see some sort of artistic interpretation or analysis on the online world because I feel like that's a new thing or at least something that hasn't been popularly discussed and explored yet.
 
 ## 5/2/25
 - I have found this incredible [p5.js example](https://editor.p5js.org/mbardin/sketches/lSYhg5Xr) by [Matthew Bardin](https://editor.p5js.org/mbardin/sketches) of different game states which is incredible because it will help me make different scenarios without having to code too much with HTMl or CSS as I've seen with some other advice given online. I've made a duplicate to make sure I have not lost this information. I'll make sure to read through the instructions given rather than just ripping all the code for myself.
+<img width="1121" alt="Week 4 Needs" src="https://github.com/user-attachments/assets/6946770e-7d7d-4962-96dd-b6ad579f0228" />
+I've completed everything I needed to have for feedback on the 8th of February
 
 ## 11/2/25
 - Okay so I am back from my trip away (albeit a little sunburnt) but I think I now have a much clearer goal in mind for my coding piece.
@@ -202,7 +205,7 @@ writing.push(userLine);
 - Another thing is I need to write my real reflection on my chosen text piece which is ``Expanding the Concept of Writing: Notes on Net Art, Digital Narrativen and Viral Ethics by Mark Amerika`` and not what I had written on Interacctive Art, although I want that to be a sort of reflection of my frustration and have it included somewhere.
 - Finally I must create a functional code and story which I will be doing today so I can make progress on my code and final piece.
 
-### Making the Story
+
 
 ### Starting putting all the code together
 - Thanks to that p5.js example I found by Matthew Bardin, I was able to start by making a sequence of three "states" which reacted to my button input which was great. Now I was to start personalising my story as well as adding more reactions.
@@ -237,4 +240,15 @@ function tryAgainScreen() {
   buttonYes.hide();
 }
 ```
-And fantastically Leo emailed me back with an amazing example of summoning a scene by using functions in [this p5.js sketch](https://editor.p5js.org/leo_br/sketches/-GG4SpE69). Now I will use both of these to design my scenarios and then try add some more of my past work to make some sort of skeleton for my story to launch from
+And fantastically Leo emailed me back with an amazing example of summoning a scene by using functions in [this p5.js sketch](https://editor.p5js.org/leo_br/sketches/-GG4SpE69). Now I will use both of these to design my scenarios and then try add some more of my past work to make some sort of skeleton for my story to launch from.
+
+## 12/2/25
+- Learing about virtual exhibitions with Leo
+- Figuring out what I need to get done
+<img width="1080" alt="Week 5 Needs" src="https://github.com/user-attachments/assets/0b802594-eca8-4beb-a588-438c7ee40b54" />
+
+### More Coding
+- I was struggling to utilise Leo' feedback in my work so I looked for help online and I found [this p5.js tutorial](https://p5js.org/tutorials/organizing-code-with-functions/) which helped me make my code tidier and easier to work with. put photo here
+
+### Making the Story
+I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file]()
