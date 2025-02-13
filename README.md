@@ -270,9 +270,188 @@ However I needed to keep lookign because I needed help making my scenes work as 
 ![image](https://github.com/user-attachments/assets/0c44c5a2-7b41-499e-89b9-2c3c67e85999)
 
 I saw yesterday on the class call that some other people had done interactive art and so I will check out their accounts on github and possible find some helpful code, I will also email Leo just in case to make sure I get as much help as possible. I found [this work](https://github.com/qzha880/Creative-Coding-and-Workbook/tree/main) by Wendy and I went through the sketch.js file on it and it shows how many functions there have been built to make the story of her work. I will be looking through this work and seeing if any pieces can be applied into my work while waiting to hear from Leo for feedback. I also asked the discord for help and this was the reply I got:
+
 <img width="636" alt="Screenshot 2025-02-13 at 4 00 50 PM" src="https://github.com/user-attachments/assets/866a1426-266c-4db6-9647-e1754a8f9cae" />
-- So now I am researching Boolean variables to help with both buttons and messages popping up.
+
+So now I am researching Boolean variables to help with both buttons and messages popping up.
 ### Leo's Help
-<img width="1512" alt="Screenshot 2025-02-13 at 5 32 21 PM" src="https://github.com/user-attachments/assets/ebf4e784-f2d8-4899-afc2-c958743751d6" />
 - this is what Leo sent me and it is really helpful because I will use it for the beginning 8 scenes that I will create and then I will see what I can accomplish from there.
-- a
+<img width="1512" alt="Screenshot 2025-02-13 at 5 32 21 PM" src="https://github.com/user-attachments/assets/ebf4e784-f2d8-4899-afc2-c958743751d6" />
+
+So now thnaks to Leo's help my work looks like this:
+``` "javascript"
+let font1;
+let scene = 0;
+let gameState = 'intro';
+
+
+function preload(){
+  font1 = loadFont('CARAMELS PERSONAL USE DAFONT.otf');
+}
+
+function setup() {
+  createCanvas(400, 400);
+  
+}
+
+
+function draw(){
+  background(210,200,22);
+ // function for the scenes; one for each individual scene;
+ // function for buttons
+// nextScene();
+keyPressed();
+showText();
+if (scene > 8){
+  scene = 0;
+} else if (scene === 1){
+  scene1();
+} else if (scene === 2){
+  scene2();
+} else if (scene === 3){
+  scene3(); 
+} else if (scene === 4){
+  scene4(); 
+} else if (scene === 5){
+  scene5(); 
+} else if (scene === 6){
+  scene6(); 
+} else if (scene === 7){
+  scene7(); 
+} else if (scene === 8){
+  scene8(); 
+} 
+}
+
+function keyPressed() {
+  if (keyCode === 32) {
+   scene += 1;
+  }
+}
+
+function showText(textToDisplay = "Default"){
+ textFont(font1);
+    textAlign(CENTER);
+    textSize(40);
+  // fill('green');
+}
+
+function scene1(){
+// if (scene === 1) {
+  text('WAKE UP', width / 2, height / 2); 
+  scene === 1
+// }
+  
+}
+
+function scene2(){
+// if (scene === 2) {
+    text('YOU ARE IN A FAMILIAR PLACE', width/2, height/2);
+    scene === 2
+    // textSize(20);
+    // text('PRESS DOWN ARROW', width/2, height-50);
+    // textSize(40);
+    // if (keyIsPressed === true && keyCode === 40){
+    //     scene === 3;
+    //     }
+      // }
+}
+
+function scene3(){
+  //  if (scene === 3) {
+text('SPACE BAR', width / 2, height / 2);
+scene === 3
+    // if (keyIsPressed === true && keyCode === 32){
+    //  scene === 0; 
+    // }
+  // } 
+}
+
+function scene4(){
+scene === 4
+}
+
+function scene5(){
+scene === 5
+}
+function scene6(){
+scene === 6
+}
+function scene7(){
+scene === 7
+}
+
+function scene8(){
+scene === 8
+}
+
+// function nextScene() {
+// if (keyPressed,gameState = 'intro') {
+// gameState === 'second'
+// } else {
+//   gameState === 'intro';
+// }
+```
+Before I used Leo's help, my code was more relient on a gameState changing variable that was quite limited and made me frustrated because I wanted to create a lot of new scenes and so I felt like Leo's code would be able to do that. This is what the code previously had looked like:
+``` "javascript"
+let font1;
+let gameState = 'intro';
+function preload(){
+font1 = loadFont('CARAMELS PERSONAL USE DAFONT.otf');
+}
+function setup() {
+createCanvas(400, 400);
+}
+function draw(){
+background(210,200,22);
+// function for the scenes; one for each individual scene;
+// function for buttons
+keyPressed();
+nextScene();
+showText();
+}
+function keyPressed() {
+if (keyCode === 32) {
+nextScene();
+}
+}
+function showText(textToDisplay = "Default"){
+textFont(font1);
+textAlign(CENTER);
+textSize(40);
+// fill('green');
+}
+function intro(){
+if (gameState === 'intro') {
+text('WAKE UP', width / 2, height / 2);
+if (mouseIsPressed) {
+gameState === 'second';
+}
+}
+function second(){
+if (gameState === 'second') {
+text('YOU ARE IN A FAMILIAR PLACE', width/2, height/2);
+textSize(20);
+text('PRESS DOWN ARROW', width/2, height-50);
+textSize(40);
+if (keyIsPressed === true && keyCode === 40){
+gameState = 'third';
+}
+}
+}
+function third(){
+if (gameState === 'third') {
+text('SPACE BAR', width / 2, height / 2);
+if (keyIsPressed === true && keyCode === 32){
+gameState = 'intro';
+}
+}
+}
+function nextScene() {
+if (gameState = 'intro') {
+} else {
+gameState === 'intro';
+}
+}
+}
+```
