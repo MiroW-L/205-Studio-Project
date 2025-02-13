@@ -254,3 +254,19 @@ And fantastically Leo emailed me back with an amazing example of summoning a sce
 
 ### Making the Story
 I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file]
+
+## 13/2/25
+### More code
+I watched [this video](https://www.youtube.com/watch?v=dHKhVQ7aQcw) which helped me add this code to my work
+``` "javascript"
+function showText(textToDisplay = "Default"){
+ textFont(font1);
+    textAlign(CENTER);
+    textSize(40);
+  // fill('green');
+}
+```
+However I needed to keep lookign because I needed help making my scenes work as I am struggling to utilise my functions.
+![image](https://github.com/user-attachments/assets/0c44c5a2-7b41-499e-89b9-2c3c67e85999)
+
+I saw yesterday on the class call that some other people had done interactive art and so I will check out their accounts on github and possible find some helpful code, I will also email Leo just in case to make sure I get as much help as possible.
