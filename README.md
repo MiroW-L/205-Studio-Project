@@ -271,4 +271,8 @@ However I needed to keep lookign because I needed help making my scenes work as 
 
 I saw yesterday on the class call that some other people had done interactive art and so I will check out their accounts on github and possible find some helpful code, I will also email Leo just in case to make sure I get as much help as possible. I found [this work](https://github.com/qzha880/Creative-Coding-and-Workbook/tree/main) by Wendy and I went through the sketch.js file on it and it shows how many functions there have been built to make the story of her work. I will be looking through this work and seeing if any pieces can be applied into my work while waiting to hear from Leo for feedback. I also asked the discord for help and this was the reply I got:
 <img width="636" alt="Screenshot 2025-02-13 at 4 00 50 PM" src="https://github.com/user-attachments/assets/866a1426-266c-4db6-9647-e1754a8f9cae" />
-So now I am researching Boolean variables to help with both buttons and messages popping up.
+- So now I am researching Boolean variables to help with both buttons and messages popping up.
+### Leo's Help
+<img width="1512" alt="Screenshot 2025-02-13 at 5 32 21 PM" src="https://github.com/user-attachments/assets/ebf4e784-f2d8-4899-afc2-c958743751d6" />
+- this is what Leo sent me and it is really helpful because I will use it for the beginning 8 scenes that I will create and then I will see what I can accomplish from there.
+- a
