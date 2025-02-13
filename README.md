@@ -253,7 +253,7 @@ And fantastically Leo emailed me back with an amazing example of summoning a sce
 
 
 ### Making the Story
-I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file]
+I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file](https://drive.google.com/file/d/1tUpbsSdTRw33s3qyDoOSGGpivNpANEge/view?usp=sharing)
 
 ## 13/2/25
 ### More code
