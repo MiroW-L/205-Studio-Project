@@ -253,7 +253,7 @@ And fantastically Leo emailed me back with an amazing example of summoning a sce
 
 
 ### Making the Story
-I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in Alice Lee's work so I ended up with a planning page which I turned into [this PDF file](https://drive.google.com/file/d/1tUpbsSdTRw33s3qyDoOSGGpivNpANEge/view?usp=sharing)
+I used a normal google document and wrote down my ideas for what would my work be about and ended up using the drawing function to create a timeline like the one I saw on the website about Olia Lialina as well as in [Alice Lee's work](https://github.com/glovving/workshop-task-4/tree/main) so I ended up with a planning page which I turned into [this PDF file](https://drive.google.com/file/d/1tUpbsSdTRw33s3qyDoOSGGpivNpANEge/view?usp=sharing). I want to make it so I end up with multiple endings and even though the story hasn't finished I'll figure out appropriate endings depending on how much time I have left.
 
 ## 13/2/25
 ### More code
@@ -455,3 +455,14 @@ gameState === 'intro';
 }
 }
 ```
+While waiting for Leo's reply I began looking through other students work.
+I found this in Alice Lee's work:
+``` "javascript"
+//initial yes and no buttons
+let yes, no;
+
+//continue flag
+let continue_game = true;
+let yes_no = false;
+```
+This is a boolean variable and what she had advised me on using on discord. To understand this further I did a bit of lookign online and found this great [website](https://happycoding.io/tutorials/javascript/if-statements) which helped inform me on quite a lot of things.
