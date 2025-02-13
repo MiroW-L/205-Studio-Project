@@ -269,4 +269,4 @@ function showText(textToDisplay = "Default"){
 However I needed to keep lookign because I needed help making my scenes work as I am struggling to utilise my functions.
 ![image](https://github.com/user-attachments/assets/0c44c5a2-7b41-499e-89b9-2c3c67e85999)
 
-I saw yesterday on the class call that some other people had done interactive art and so I will check out their accounts on github and possible find some helpful code, I will also email Leo just in case to make sure I get as much help as possible.
+I saw yesterday on the class call that some other people had done interactive art and so I will check out their accounts on github and possible find some helpful code, I will also email Leo just in case to make sure I get as much help as possible. I found [this work](https://github.com/qzha880/Creative-Coding-and-Workbook/tree/main) by Wendy and I went through the sketch.js file on it and it shows how many functions there have been built to make the story of her work. I will be looking through this work and seeing if any pieces can be applied into my work while waiting to hear from Leo for feedback.
