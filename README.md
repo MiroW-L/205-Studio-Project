@@ -469,9 +469,9 @@ This is a boolean variable and what she had advised me on using on discord. To u
 
 ## 14/2/25
 With Leo's advice I decided to restart my code, his reasoning was I was trying to do too much at once and not being able to make sure they work properly. I decided to keep my origional work recorded on this repository because it might be useful to reflect on. This is what Leo said in an email:
-``
-"I recommend starting with the sketch I made for you that uses the if statements in the draw loop. Then gradually add things, one at a time. It seems the approach you're currently taking involves adding multiple new things without testing, which makes it hard for you to know what might be causing the problem."
-``
+
+> "I recommend starting with the sketch I made for you that uses the if statements in the draw loop. Then gradually add things, one at a time. It seems the approach you're currently taking involves adding multiple new things without testing, which makes it hard for you to know what might be causing the problem."
+
 I followed his advice and he had given me some helpful code to get started with, even sending a slightly updated version that accounted for my desire to use buttons. This was the code he gave:
 ``` "javascript"
 let scene = 0;
