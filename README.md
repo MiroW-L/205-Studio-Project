@@ -466,3 +466,56 @@ let continue_game = true;
 let yes_no = false;
 ```
 This is a boolean variable and what she had advised me on using on discord. To understand this further I did a bit of lookign online and found this great [website](https://happycoding.io/tutorials/javascript/if-statements) which helped inform me on quite a lot of things.
+
+## 14/2/25
+With Leo's advice I decided to restart my code, his reasoning was I was trying to do too much at once and not being able to make sure they work properly. I decided to keep my origional work recorded on this repository because it might be useful to reflect on. This is what Leo said in an email:
+```
+"I recommend starting with the sketch I made for you that uses the if statements in the draw loop. Then gradually add things, one at a time. It seems the approach you're currently taking involves adding multiple new things without testing, which makes it hard for you to know what might be causing the problem."
+```
+I followed his advice and he had given me some helpful code to get started with, even sending a slightly updated version that accounted for my desire to use buttons. This was the code he gave:
+``` "javascript"
+let scene = 0;
+
+function setup() {
+  createCanvas(400, 400);
+  let button = createButton('change scene');
+  button.position(100, 100);
+  button.mousePressed(() => {
+      scene += 1;
+  })
+}
+
+function draw() {
+    if (scene > 3) {
+    scene = 0;
+  }
+
+  switch (scene) {
+    case 0:
+      background(220);
+      break;
+    case 1:
+      scene1();
+      break;
+    case 2:
+      scene2();
+      break;
+    case 3:
+      scene3();   
+      break;
+  }
+}
+
+function scene1(){
+  background(255, 0, 0);
+}
+
+function scene2(){
+  background(0, 255, 0);
+}
+
+function scene3(){
+  background(0, 0, 255);
+}
+```
+I put this into VS Code and made it work, this felt good to have a foundation. I wanted to then try add a boolean variable, I would use some of the online resources I had plus some of the help I recieved from the Discord. Also I had offhandedly looked into using [HOWLER.JS](https://howlerjs.com) to put music in my work but for now I'm not going to do that because I don't want to get too carried away.
