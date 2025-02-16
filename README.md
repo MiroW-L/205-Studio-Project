@@ -519,3 +519,151 @@ function scene3(){
 }
 ```
 I put this into VS Code and made it work, this felt good to have a foundation. I wanted to then try add a boolean variable, I would use some of the online resources I had plus some of the help I recieved from the Discord. Also I had offhandedly looked into using [HOWLER.JS](https://howlerjs.com) to put music in my work but for now I'm not going to do that because I don't want to get too carried away.
+
+## 16/2/25
+- I have successfully figured out how to use functions to make different scenarios which feels amazing. This is the work I have so far managed to get done, whch is incredible because I definately will be able to meet the deadline with all the plots filled out plus if I grind for it I could add images, sound, drawings, extra fiddly bits. Anyway here's the code:
+``` "javascript"
+let scene = 0;
+let WAKE  = true;
+let getUp = true;
+
+let (path1 = true);
+let (path2 = false);
+
+let stayInBed = path1;
+if (path1 = true) {
+    scene3;
+} else if (path1 = false){
+  scene !== 3;
+  scene2;
+}
+
+let getOutBed = path2;
+if (path2 = false){
+  scene === 2;
+  scene2;
+} else if (path2 = true){
+  scene !== 2;
+  scene3;
+}
+
+function setup() {
+    createCanvas(400, 400);
+  let WAKE = createButton('WAKE UP');
+  WAKE.position(width/2, height/2);
+  WAKE.mousePressed(() => {
+    scene = 1;
+  })
+  
+  
+// removeItem.WAKE();
+// clearCanvas();
+}
+
+function draw() {
+  if(scene>3) {
+    scene=0;
+  }
+switch (scene){
+  case 0:
+    background (220);
+    break;
+  case 1:
+    scene1();
+    break;
+  case 2:
+    scene2();
+    break;
+  case 3:
+    scene3();
+    break;
+  case 4:
+    scene4();
+    break;
+  case 5:
+    scene5();
+    break;
+
+    
+}
+
+}
+
+function scene1(){
+  background('red');
+  
+   // present getUp button
+   // present stayIn button 
+    if (scene1 = true||false){
+       removeElements(WAKE); 
+   }
+let getUp = createButton('GET OUT OF BED');
+getUp.position(width/3, height/4);
+getUp.mouseClicked(() => {
+      scene2();
+    })
+let stayIn = createButton('STAY IN BED');
+    stayIn.position(width/3, height/2);
+    stayIn.mouseClicked(() => {
+          scene3();
+        })
+}
+
+function scene2(){
+  removeElements();
+  background('green');
+  
+  let goKitchen = createButton('GO TO KITCHEN');
+   goKitchen.position(width/5, height/3);
+   noErase(goKitchen);
+   goKitchen.mouseClicked(() => {
+      scene4();
+  })
+  let goTown = createButton('GO TO TOWN');
+  goTown.position(width-180, height/3);
+    goTown.mouseClicked(() => {
+      scene5();
+})  
+//   if (scene3=true||false){
+//     noErase();
+//      scene2BUTTONS();
+    
+// }
+}
+
+// function scene2BUTTONS(){
+//   background('green');
+//   if (scene2 = true||false){
+//     removeElements("getUp");
+//     removeElements("stayIn"); 
+//     background.show();
+//     show("goKitchen");
+//     show("goTown");
+    
+// }
+
+// }
+
+function scene3(){
+  removeElements();
+  background('blue');
+// stay in  bed fork
+  
+  // present lieIn button
+  // presnet getUp button
+}
+
+function scene4(){
+  removeElements();
+background('purple');
+// kitchen
+
+}
+
+function scene5(){
+  removeElements
+background('pink');
+// town ending make a possible car thing maybe image
+}
+```
+I'm feelign super proud of what I managed to figure out by just experimenting with the different functions, tools on VS Code, and what information I've learnt so far.
