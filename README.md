@@ -676,4 +676,5 @@ function windowResized(){
   resizeCanvas(windowWidth, windowHeight);
 }
 ```
-a
+## 17/2/25
+Found this [RGB guide](https://htmlcolorcodes.com/colors/shades-of-red/) for different colours so making my backgrounds really pretty colours.
