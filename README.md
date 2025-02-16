@@ -666,4 +666,14 @@ background('pink');
 // town ending make a possible car thing maybe image
 }
 ```
-I'm feelign super proud of what I managed to figure out by just experimenting with the different functions, tools on VS Code, and what information I've learnt so far.
+I'm feeling super proud of what I managed to figure out by just experimenting with the different functions, tools on VS Code, and what information I've learnt so far.
+I also added this extra bit of code to make the canvas adjust to be whatever size the window is so I can move the buttons placement around more:
+``` "javascript"
+function setup () {
+createCanvas (windowWidth, windowHeight);
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
+}
+```
+a
