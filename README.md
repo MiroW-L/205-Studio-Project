@@ -677,4 +677,5 @@ function windowResized(){
 }
 ```
 ## 17/2/25
-Found this [RGB guide](https://htmlcolorcodes.com/color-names/) for different colours so making my backgrounds really pretty colours.
+- Found this [RGB guide](https://htmlcolorcodes.com/color-names/) for different colours so making my backgrounds really pretty colours.
+- Used and image from [this website](https://www.thebookbeat.com/backroom/2024/02/10/i-arrogantly-recommend-by-tom-bowden-46/) which I added for one of the endings.
