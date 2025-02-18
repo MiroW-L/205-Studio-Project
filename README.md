@@ -683,7 +683,7 @@ function windowResized(){
 - Been lookign at the work of other students such as [Andres](https://github.com/Andrefls/Studio_Project), [Alice Lee](https://github.com/glovving/studio-project), and [Sienna](https://github.com/siennabienna/studio_project) all of which are awesome and very inspiring.
 
 ## 18/2/25 the big day
-- took some of [this code](https://editor.p5js.org/datagardenproject/sketches/kol7iMKIb) from [this video exemplar](https://www.youtube.com/watch?v=mO4aKYNRuws&list=PLQOYjD_l2fgBn6hoocYZ-6w1Kz6mD0nLV) by [The Data Garden Project](https://www.youtube.com/@datagardenproject):
+- took some of [this code](https://editor.p5js.org/datagardenproject/sketches/kol7iMKIb) from [this video exemplar]([https://www.youtube.com/watch?v=mO4aKYNRuws&list=PLQOYjD_l2fgBn6hoocYZ-6w1Kz6mD0nLV](https://youtu.be/LDKTs-1nwjI?feature=shared)) by [The Data Garden Project](https://www.youtube.com/@datagardenproject):
 ``` "javascript"
   if (mouseIsPressed) {
     r = random(255); // r is a random number between 0 - 255
