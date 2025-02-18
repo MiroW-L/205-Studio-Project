@@ -683,6 +683,8 @@ function windowResized(){
 - Been lookign at the work of other students such as [Andres](https://github.com/Andrefls/Studio_Project), [Alice Lee](https://github.com/glovving/studio-project), and [Sienna](https://github.com/siennabienna/studio_project) all of which are awesome and very inspiring.
 
 ## 18/2/25 the big day
+- found a drawing of a broken down car on [this stock website](https://www.istockphoto.com/illustrations/drawing-of-broken-car)
+- 
 - took some of [this code](https://editor.p5js.org/datagardenproject/sketches/kol7iMKIb) from [this video exemplar](https://youtu.be/LDKTs-1nwjI?feature=shared) by [The Data Garden Project](https://www.youtube.com/@datagardenproject):
 ``` "javascript"
   if (mouseIsPressed) {
