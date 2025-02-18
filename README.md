@@ -681,3 +681,14 @@ function windowResized(){
 - Used and image from [this website](https://www.thebookbeat.com/backroom/2024/02/10/i-arrogantly-recommend-by-tom-bowden-46/) which I added for one of the endings.
 - Found all of these videos which were all helpful, one by [The Coding Train](https://www.youtube.com/watch?v=zkc417YapfE), one by [Web Dev Simplified](https://www.youtube.com/watch?v=R1S_NhKkvGA), and a third one by [Drew Conley](https://www.youtube.com/watch?v=8i2K7uwh124). The first two were helpful because they offered guidance and insight in create multiple options/scenarios while the one by Drew Conley was helpful because it helped me learn speech bubbles in case I wanted to include, which I think I might for some of the endings in my scenarios.
 - Been lookign at the work of other students such as [Andres](https://github.com/Andrefls/Studio_Project), [Alice Lee](https://github.com/glovving/studio-project), and [Sienna](https://github.com/siennabienna/studio_project) all of which are awesome and very inspiring.
+
+## 18/2/25 the big day
+- took this code from [this video exemplar](https://www.youtube.com/watch?v=mO4aKYNRuws&list=PLQOYjD_l2fgBn6hoocYZ-6w1Kz6mD0nLV):
+``` "javascript"
+  if (mouseIsPressed) {
+    r = random(255); // r is a random number between 0 - 255
+    g = random(100, 200); // g is a random number betwen 100 - 200
+    b = random(150); // b is a random number between 0 - 150
+    fill(r, g, b);
+  }
+```
