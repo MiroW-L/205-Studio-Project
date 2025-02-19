@@ -684,8 +684,8 @@ function windowResized(){
 
 ## 18/2/25 the big day
 - found a drawing of a broken down car on [this stock website](https://www.istockphoto.com/illustrations/drawing-of-broken-car)
-- 
-- took some of [this code](https://editor.p5js.org/datagardenproject/sketches/kol7iMKIb) from [this video exemplar](https://youtu.be/LDKTs-1nwjI?feature=shared) by [The Data Garden Project](https://www.youtube.com/@datagardenproject):
+- used other various pictures I had downloaded on my laptop or taken on my phone to add for a more detailed and engaging background for the scenes
+- took some of [this code](https://editor.p5js.org/datagardenproject/sketches/kol7iMKIb) from [this video exemplar](https://youtu.be/LDKTs-1nwjI?feature=shared) by [The Data Garden Project](https://www.youtube.com/@datagardenproject) which I used to make a sort of glitchy first scene:
 ``` "javascript"
   if (mouseIsPressed) {
     r = random(255); // r is a random number between 0 - 255
@@ -694,3 +694,4 @@ function windowResized(){
     fill(r, g, b);
   }
 ```
+## 19/2/25 have to hand in soon
