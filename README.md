@@ -695,3 +695,49 @@ function windowResized(){
   }
 ```
 ## 19/2/25 have to hand in soon
+used [this p5.js website](https://p5js.org/reference/p5.Element/hide/) to make breakable buttons
+``` "javascript"
+function atSupermarket(){
+removeElements();
+background(152,250,152);
+// supermarket ending
+img14.resize(windowWidth-30,windowHeight-30);
+image(img14,15,15);
+
+buying1 = createButton('BUY ME');
+buying1.position(width-300, height/2);
+buying1.mouseClicked(() => {
+buying1.hide();
+    })
+
+buying2 = createButton('BUY ME');
+buying2.position(width-300, height/3);
+buying2.mouseClicked(() => {
+buying2.hide();
+    })
+
+let buying3 = createButton('BUY ME');
+    buying3.position(width-300, height/4);
+    buying3.mouseClicked(() => {
+      buying3.hide();
+        })
+    
+let buying4 = createButton('BUY ME');
+    buying4.position(width-300, height*9/20);
+    buying4.mouseClicked(() => {
+          buying4.hide();
+        })
+        let buying5 = createButton('BUY ME');
+        buying5.position(width-300, height/5);
+        buying5.mouseClicked(() => {
+              buying5.hide();
+            })
+
+        let lunch1 = createButton('LUNCH TIME');
+        lunch1.position(width-300, height-320);
+        lunch1.mouseClicked(() => {
+              lunchTime();
+            })
+}
+```
+I also used [this website](https://p5js.org/reference/p5/createA/) to add in links to my piece.
