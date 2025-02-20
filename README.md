@@ -740,4 +740,6 @@ let buying4 = createButton('BUY ME');
             })
 }
 ```
-I also used [this website](https://p5js.org/reference/p5/createA/) to add in links to my piece.
+I also used [this website](https://p5js.org/reference/p5/createA/) to add in links to my piece and used [internet archive](https://archive.org) to get PDF versions of books to use in my work.
+
+## 20/2/25 the finish line
