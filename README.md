@@ -741,6 +741,14 @@ let buying4 = createButton('BUY ME');
 }
 ```
 I also used [this website](https://p5js.org/reference/p5/createA/) to add in links to my piece, used [internet archive](https://archive.org) to get PDF versions of books to use in my work, and [this exemplar](https://editor.p5js.org/dannyrozin/sketches/r1djoVow7) which I found of [this reddit thread](https://www.reddit.com/r/processing/comments/dylqr5/new_to_p5js_and_stuck_on_pdfsvg_exporting/) and it helped me incorporate the PDFs into my work which made me very happy. 
+``` "javascript"
+  }
+  save("mySVG.svg"); // give file name
+  print("saved svg");
+  noLoop(); // we just want to export once
+}
+```
+This is the code that I used which helped me out so much.
 
 ## 20/2/25 the finish line
 For some reason I am having trouble with the sketch and making a website, it leaves me at a blank screen rather than running my code.
