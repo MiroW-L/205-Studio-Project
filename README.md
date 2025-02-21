@@ -1,4 +1,5 @@
 # Studio-Project
+https://mirow-l.github.io/205-Studio-Project/
 
 ## 2/2/25
 I was thinking that I could recycle my old work from creating buttons and mesh that with some of the writing interaction code I have to make some sort of text response code, a la Fallout 1. I do think that might be too hard so I might try use buttons instead to create a pick your own adventure type of work, I don't know what the theme of this story would be, it needs to be something interesting and relevant to me. I think for theme I want to do interactivity because I love the idea of a user interfacing with some sort of grand gesture of art. I'm to read some of the online reading on interactivity (I've now changed to the text on writing within digital art) and I'll browse the artists given to find one that will apply into my vision. What inspired this decision was seeing what other users had made in the Workshop 4 task, specifically my classmates [Alice Lee](https://github.com/glovving/workshop-task-4) and [Sienna](https://github.com/siennabienna/workshop_4) and how they had interactive, reactionary little worlds, that really captivated me.
