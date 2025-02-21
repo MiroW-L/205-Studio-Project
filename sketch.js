@@ -2,6 +2,7 @@ let scene = 0;
 let WAKE  = true;
 let getUp = true;
 let font1;
+let font2;
 let img1;
 let img2;
 let img3;
@@ -28,10 +29,11 @@ let book2;
 let book3;
 let book4;
 let book5;
-let userInput;
-// let button;
-let poem = [];
+let myButton;
 let myInput;
+let myText;
+let stuff;
+
 
 var pdf1 = 'animalfarm-E.pdf';
 var pdf2 = 'picture books/GreenEggs Ham.pdf';
@@ -61,6 +63,7 @@ if (path2 = false){
 
 function preload(){
   font1 = loadFont('CARAMELS PERSONAL USE DAFONT copy 2.otf');
+  font2 = loadFont('F25_Bank_Printer.otf');
   img1 = loadImage('online images/BushmillerNancyBins.jpg');
    img2 = loadImage('real life photos/wigglytrees.JPG');
    img3 = loadImage('real life photos/IMG_0729 copy.jpeg');
@@ -207,28 +210,10 @@ function scene2(){
       
 
 })  
-//   if (scene3=true||false){
-//     noErase();
-//      scene2BUTTONS();
 img2.resize(windowWidth-30,windowHeight-30);
 image(img2,15,15);
-// image(img5,10,10);  
-// image.resize(70,100); 
-// }
 }
 
-// function scene2BUTTONS(){
-//   background('green');
-//   if (scene2 = true||false){
-//     removeElements("getUp");
-//     removeElements("stayIn"); 
-//     background.show();
-//     show("goKitchen");
-//     show("goTown");
-    
-// }
-
-// }
 
 function scene3(){
   removeElements();
@@ -330,8 +315,6 @@ function scene7(){
      lieIn3.mouseClicked(() => {
             sceneBedhead();
           })
-  // img9.resize(windowWidth-20,windowHeight-20);
-  // image(img9,10,10);
   img12.resize(windowWidth-30,windowHeight-30);
   image(img12,15,15);
 
@@ -351,8 +334,6 @@ image(img1,25,40);
 textFont(font1);
 textSize(58);
 text('YOU WENT BACK TO SLEEP.', width/5, height-104);
-// moveText = text('YOU WENT BACK TO SLEEP.', 10, 10);
-// moveText(mouseX,mouseY);
 }
 
 function drinkitUp(){
@@ -599,12 +580,7 @@ youtubeButton.mouseClicked(() => {
 })
     let music1 = createA('https://open.spotify.com', spotifyButton, '_blank');
   // music1.position(200,height/6);
-// book5.mouseClicked(() => {
-//   save("picture books/Winnie_the_Pooh.pdf"); // give file name
-//   print("picture books/Winnie_the_Pooh.pdf");
-//   noLoop(); // we just want to export once
-//   // book1.open();
-// })
+
 let music2 = createA('https://music.amazon.com', amazonButton, '_blank');
 // music2.position(200,height/3);
 
@@ -646,36 +622,31 @@ let getUp3 = createButton('I`M ALRIGHT THANKS THO');
             })
   }
 
-  function friendEnd(){
+function friendEnd(){
     removeElements();
-userInput = createInput();
-userInput.position(60,100);
-button = createButton('fess up');
-button.position(userInput.x + 250,userInput.y); 
-button.mousePressed(newLine);
 
-writePoem();
 
+myInput=createInput();
+myInput.position(width/8,height/8);
+myButton = createButton('fess up');
+myButton.position(myInput.position + 130,height/8);
+myButton.mouseClicked(drawName);
+noStroke();
+textFont(font2);
 let getUp3 = createButton('NEVER MIND');
             getUp3.position(width-250, height/2);
             getUp3.mouseClicked(() => {
                   sceneBedhead();
                 })
-// myInput = createInput('hello!'); 
-//   myInput.position(300, 100);
-// let msg = myInput.value();
-// text(msg, 25, 55);
-}
-
-function newLine(){
-  userLine = userInput.value();
-  userInput.value('');
 
 }
 
-function writePoem(){
-  for(x=0;x<poem.length;x++){
-      text(poem[x],40,165+x*34);
-      // text.resize(12);
+function drawName() {
+  background(100);
+  textSize(130);
+  var name = myInput.value();
+  for (var i=0; i < 30; i++) {
+    fill(random(255));
+    text(name, random(width), random(height));
   }
 }
