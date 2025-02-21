@@ -1,27 +1,3 @@
-// // 10:00 AM
-// let currentHour = 9;
-
-// let isMorning = currentHour < 12;
-// if (isMorning) {
-//   document.write('Good morning!');
-// }
-
-// let isAfternoon = currentHour > 12;
-// if (isAfternoon) {
-// document.write('Good afternoon!');
-// }
-
-// 2:00 PM
-// let currentHour = 23;
-
-// if (currentHour < 12) {
-//   document.write('Good morning!');
-// } else if (currentHour < 17) {
-//   document.write('Good afternoon!');
-// } else if (currentHour < 24){
-//   document.write('Good evening!');
-// }
-
 let scene = 0;
 let WAKE  = true;
 let getUp = true;
@@ -599,20 +575,50 @@ let listenToMusic = createButton('LISTEN TO SOME MUSIC');
                 })
    }
 
-  function favouriteSong(){
+function favouriteSong(){
     removeElements();
     background(255,205,0);
     // listen to music path
-    let listenToMusic = createButton('LISTEN TO SOME MUSIC');
-      listenToMusic.position(width-250, height/3);
-       listenToMusic.mouseClicked(() => {
-              favmusicPath();
-            })
+
+    let spotifyButton = createButton('SPOTIFY');
+spotifyButton.position(width/4, height/5);
+spotifyButton.mouseClicked(() => {
+  open(music1);
+})
+
+let amazonButton = createButton('AMAZON MUSIC');
+amazonButton.position(width/4, height/3);
+amazonButton.mouseClicked(() => {
+  open(music2);
+})
+
+let youtubeButton = createButton('YOUTUBE MUSIC');
+youtubeButton.position(width/4, height/2);
+youtubeButton.mouseClicked(() => {
+  open(music3);
+})
+    let music1 = createA('https://open.spotify.com', spotifyButton, '_blank');
+  // music1.position(200,height/6);
+// book5.mouseClicked(() => {
+//   save("picture books/Winnie_the_Pooh.pdf"); // give file name
+//   print("picture books/Winnie_the_Pooh.pdf");
+//   noLoop(); // we just want to export once
+//   // book1.open();
+// })
+let music2 = createA('https://music.amazon.com', amazonButton, '_blank');
+// music2.position(200,height/3);
+
+let music3 = createA('https://music.youtube.com', youtubeButton, '_blank');
+// music3.position(200,height/2);
+
+
+
+let getUp3 = createButton('I`M ALRIGHT THANKS THO');
+            getUp3.position(width-250, height/2);
+            getUp3.mouseClicked(() => {
+                  sceneBedhead();
+                })
   }
-
-function favmusicPath(){
-
-}
 
   function friendSong(){
     removeElements();
