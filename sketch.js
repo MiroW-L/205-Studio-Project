@@ -52,12 +52,15 @@ let book2;
 let book3;
 let book4;
 let book5;
+let userInput;
+// let button;
+let poem = [];
+let myInput;
 
 var pdf1 = 'animalfarm-E.pdf';
-var pdf2 = MyPdf.pdf;
-var pdf3 = MyPdf.pdf;
-var pdf4 = MyPdf.pdf;
-var pdf5 = MyPdf.pdf;
+var pdf2 = 'picture books/GreenEggs Ham.pdf';
+var pdf3 ='picture books/Oh, the Places You`ll Go! by Dr. Seuss.pdf';
+var pdf4 = 'picture books/Winnie_the_Pooh.pdf';
 
 
 let (path1 = true);
@@ -82,22 +85,22 @@ if (path2 = false){
 
 function preload(){
   font1 = loadFont('CARAMELS PERSONAL USE DAFONT copy 2.otf');
-  img1 = loadImage('BushmillerNancyBins.jpg');
-   img2 = loadImage('wigglytrees.JPG');
-   img3 = loadImage('IMG_0729 copy.jpeg');
-   img4 = loadImage('BrokenDownCar.jpg');
-   img5 = loadImage('herzog copy.jpg');
-  img6 = loadImage('Atlas Lion.webp');
-  img7 = loadImage('sawsuj.jpeg');
-  img8 = loadImage('jerma.png');
-  img9=loadImage('bobDylan.png');
-  img10=loadImage('IMG_0930 copy.jpeg');
-  img11=loadImage('IMG_0931 copy.jpeg');
-  img12=loadImage('IMG_0733 copy.jpeg');
-  img13=loadImage('microwave.jpg');
-  img14=loadImage('supermarket.jpg');
-  img15=loadImage('DollarStore.jpeg');
-  img16=loadImage('drink.jpg');
+  img1 = loadImage('online images/BushmillerNancyBins.jpg');
+   img2 = loadImage('real life photos/wigglytrees.JPG');
+   img3 = loadImage('real life photos/IMG_0729 copy.jpeg');
+   img4 = loadImage('online images/BrokenDownCar.jpg');
+   img5 = loadImage('online images/herzog copy.jpg');
+  img6 = loadImage('online images/Atlas Lion.webp');
+  img7 = loadImage('online images/sawsuj.jpeg');
+  img8 = loadImage('online images/jerma.png');
+  img9=loadImage('online images/bobDylan.png');
+  img10=loadImage('real life photos/IMG_0930 copy.jpeg');
+  img11=loadImage('real life photos/IMG_0931 copy.jpeg');
+  img12=loadImage('real life photos/IMG_0733 copy.jpeg');
+  img13=loadImage('real life photos/microwave.jpg');
+  img14=loadImage('real life photos/supermarket.jpg');
+  img15=loadImage('real life photos/DollarStore.jpeg');
+  img16=loadImage('real life photos/drink.jpg');
 }
 
 function setup() {
@@ -466,6 +469,14 @@ function atDollarStore(){
   // dollar store ending
   img15.resize(windowWidth-30,windowHeight-30);
 image(img15,15,15);
+textSize(150);text('MASTERFUL BARGAIN HUNTING',width/7, height/8, 600, 450);
+textSize(150);text('IT WAS WORTH IT',width/8, height/2, 600, 450);
+
+let homeNow = createButton('HOME TIME');
+homeNow.position(width-250, height-250);
+homeNow.mouseClicked(() => {
+      scene4();
+    })
 }
 
 function readPath(){
@@ -475,47 +486,56 @@ function readPath(){
   img6.resize(windowWidth-20,windowHeight-20);
   image(img6,10,10);
  
-  let book1 = createA('https://drive.google.com/file/d/1FEUkG4rMG2a00qQMWS9JO0hIkDzZ_BNB/view?usp=share_link', 'animal farm', '_blank');
+  let book1 = createA('https://archive.org/details/animalfarm-E/page/103/mode/2up', 'animal farm', '_blank');
   book1.position(100,100);
-  if (book1.mouseClicked){
-    openLink1();
- }
+  book1.mouseClicked(() => {
+    save("animalfarm-E.pdf"); // give file name
+    print("animalfarm-E.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
   
-  let book2 = createA('https://drive.google.com/file/d/10uM-Vh1f-l7Qx8iHagmNiaLBgeHQ_-HD/view?usp=share_link', 'green eggs & ham', '_blank');
+  let book2 = createA('https://archive.org/details/winnie-the-pooh_202201/mode/2up', 'green eggs & ham', '_blank');
   book2.position(100,200);
+  book2.mouseClicked(() => {
+    save("picture books/GreenEggs Ham.pdf"); // give file name
+    print("picture books/GreenEggs Ham.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
   let book3 = createA('https://drive.google.com/file/d/1FEUkG4rMG2a00qQMWS9JO0hIkDzZ_BNB/view?usp=sharing', 'oh, the places you`ll go', '_blank');
   book3.position(100,300);
+  book3.mouseClicked(() => {
+    save("picture books/Oh, the Places You`ll Go! by Dr. Seuss.pdf"); // give file name
+    print("picture books/Oh, the Places You`ll Go! by Dr. Seuss.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
   let book5 = createA('https://drive.google.com/file/d/1w9okDg5b1WJp_lbflt8YAI_RJywvA763/view?usp=sharing', 'winnie the pooh', '_blank');
   book5.position(100,400);
+  book5.mouseClicked(() => {
+    save("picture books/Winnie_the_Pooh.pdf"); // give file name
+    print("picture books/Winnie_the_Pooh.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
 
-  let lieIn4 = createButton('BACK TO SLEEP');
+
+
+  let lieIn4 = createButton('I AM GETTING TIRED');
 lieIn4.position(width-400, height-250);
  lieIn4.mouseClicked(() => {
         sceneBedhead();
       })
   }
 
-  function openLink1(){
-    window.open('https://drive.google.com/file/d/1FEUkG4rMG2a00qQMWS9JO0hIkDzZ_BNB/view?usp=share_link');
-  }
-  
-  function openLink2(){
-    window.open('http://www.google.com');
-  }
-  
-  function openLink3(){
-    window.open('http://www.google.com');
-  }
-  
-  function openLink4(){
-    window.open('http://www.google.com');
-  }
+
   
   function musicPath(){
     removeElements();
     background(255,205,0);
     // music ending
-    let listenToMusic2 = createButton('LISTEN MY FAVOURITE SONG');
+    let listenToMusic2 = createButton('LISTEN TO MY FAVOURITE SONG');
     listenToMusic2.position(width/2, height/4);
      listenToMusic2.mouseClicked(() => {
             favouriteSong();
@@ -582,11 +602,74 @@ let listenToMusic = createButton('LISTEN TO SOME MUSIC');
   function favouriteSong(){
     removeElements();
     background(255,205,0);
-
+    // listen to music path
+    let listenToMusic = createButton('LISTEN TO SOME MUSIC');
+      listenToMusic.position(width-250, height/3);
+       listenToMusic.mouseClicked(() => {
+              favmusicPath();
+            })
   }
+
+function favmusicPath(){
+
+}
 
   function friendSong(){
     removeElements();
     background(255,205,0);
-
+    // listen to music path
+    let listenToMusic = createButton('I FEEL REMORSE');
+      listenToMusic.position(width/3, height-500);
+       listenToMusic.mouseClicked(() => {
+              friendEnd();
+            })
+            let listenToMusic2 = createButton('I FEEL UNCOMFORTABLE');
+      listenToMusic2.position(width/4, height-400);
+       listenToMusic2.mouseClicked(() => {
+              friendEnd();
+            })
+            let listenToMusic3 = createButton('I FEEL REGRET');
+      listenToMusic3.position(width/3, height-300);
+       listenToMusic3.mouseClicked(() => {
+              friendEnd();
+            })
+            let listenToMusic4 = createButton('NOT ANY OF THOSE');
+      listenToMusic4.position(width/4, height-200);
+       listenToMusic4.mouseClicked(() => {
+              friendEnd();
+            })
   }
+
+  function friendEnd(){
+    removeElements();
+userInput = createInput();
+userInput.position(60,100);
+button = createButton('fess up');
+button.position(userInput.x + 250,userInput.y); 
+button.mousePressed(newLine);
+
+writePoem();
+
+let getUp3 = createButton('NEVER MIND');
+            getUp3.position(width-250, height/2);
+            getUp3.mouseClicked(() => {
+                  sceneBedhead();
+                })
+// myInput = createInput('hello!'); 
+//   myInput.position(300, 100);
+// let msg = myInput.value();
+// text(msg, 25, 55);
+}
+
+function newLine(){
+  userLine = userInput.value();
+  userInput.value('');
+
+}
+
+function writePoem(){
+  for(x=0;x<poem.length;x++){
+      text(poem[x],40,165+x*34);
+      // text.resize(12);
+  }
+}
