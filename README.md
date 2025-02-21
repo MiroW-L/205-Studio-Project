@@ -731,7 +731,118 @@ I also used [this website](https://p5js.org/reference/p5/createA/) to add in lin
   noLoop(); // we just want to export once
 }
 ```
-This is the code that I used which helped me out so much.
+This is the code that I used which helped me out so much. So now this is what two of my ending scenes look like:
+``` "javascript
+function readPath(){
+  removeElements();
+  background(152,250,152);
+  // read ending
+  img6.resize(windowWidth-20,windowHeight-20);
+  image(img6,10,10);
+ 
+  let book1 = createA('https://archive.org/details/animalfarm-E/page/103/mode/2up', 'animal farm', '_blank');
+  book1.position(100,100);
+  book1.mouseClicked(() => {
+    save("animalfarm-E.pdf"); // give file name
+    print("animalfarm-E.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
+  
+  let book2 = createA('https://archive.org/details/winnie-the-pooh_202201/mode/2up', 'green eggs & ham', '_blank');
+  book2.position(100,200);
+  book2.mouseClicked(() => {
+    save("picture books/GreenEggs Ham.pdf"); // give file name
+    print("picture books/GreenEggs Ham.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
+  let book3 = createA('https://drive.google.com/file/d/1FEUkG4rMG2a00qQMWS9JO0hIkDzZ_BNB/view?usp=sharing', 'oh, the places you`ll go', '_blank');
+  book3.position(100,300);
+  book3.mouseClicked(() => {
+    save("picture books/Oh, the Places You`ll Go! by Dr. Seuss.pdf"); // give file name
+    print("picture books/Oh, the Places You`ll Go! by Dr. Seuss.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
+  let book5 = createA('https://drive.google.com/file/d/1w9okDg5b1WJp_lbflt8YAI_RJywvA763/view?usp=sharing', 'winnie the pooh', '_blank');
+  book5.position(100,400);
+  book5.mouseClicked(() => {
+    save("picture books/Winnie_the_Pooh.pdf"); // give file name
+    print("picture books/Winnie_the_Pooh.pdf");
+    noLoop(); // we just want to export once
+    // book1.open();
+ })
+
+
+
+  let lieIn4 = createButton('I AM GETTING TIRED');
+lieIn4.position(width-400, height-250);
+ lieIn4.mouseClicked(() => {
+        sceneBedhead();
+      })
+  }
+```
+This is the reading ending which has books in it which I think is so cool. This next one is the one which opens up music websites:
+``` "javascript"
+function favouriteSong(){
+    removeElements();
+    background(255,205,0);
+    // listen to music path
+
+    let spotifyButton = createButton('SPOTIFY');
+spotifyButton.position(width/4, height/5);
+spotifyButton.mouseClicked(() => {
+  open(music1);
+})
+
+let amazonButton = createButton('AMAZON MUSIC');
+amazonButton.position(width/4, height/3);
+amazonButton.mouseClicked(() => {
+  open(music2);
+})
+
+let youtubeButton = createButton('YOUTUBE MUSIC');
+youtubeButton.position(width/4, height/2);
+youtubeButton.mouseClicked(() => {
+  open(music3);
+})
+    let music1 = createA('https://open.spotify.com', spotifyButton, '_blank');
+  // music1.position(200,height/6);
+// book5.mouseClicked(() => {
+//   save("picture books/Winnie_the_Pooh.pdf"); // give file name
+//   print("picture books/Winnie_the_Pooh.pdf");
+//   noLoop(); // we just want to export once
+//   // book1.open();
+// })
+let music2 = createA('https://music.amazon.com', amazonButton, '_blank');
+// music2.position(200,height/3);
+
+let music3 = createA('https://music.youtube.com', youtubeButton, '_blank');
+// music3.position(200,height/2);
+
+
+
+let getUp3 = createButton('I`M ALRIGHT THANKS THO');
+            getUp3.position(width-250, height/2);
+            getUp3.mouseClicked(() => {
+                  sceneBedhead();
+                })
+  }
+```
+
+I also wanted to make a cool reaction with an input and so I found [this p5.js example](https://editor.p5js.org/tom.smith/sketches/fASj3inoc) which I think looks awesome. I borrowed this code from it:
+``` "javascript"
+function drawName() {
+  background(100);
+  textSize(30);
+  var name = input.value();
+  for (var i=0; i < 30; i++) {
+    fill(random(255));
+    text(name, random(width), random(height));
+  }
+}
+```
 
 ## 20/2/25 the finish line
 For some reason I am having trouble with the sketch and making a website, it leaves me at a blank screen rather than running my code.
