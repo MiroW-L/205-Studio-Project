@@ -848,7 +848,8 @@ function drawName() {
 For some reason I am having trouble with the sketch and making a website, it leaves me at a blank screen rather than running my code.
 ![image](https://github.com/user-attachments/assets/6e20fa33-0502-4aac-b468-e9106d50cdb7)
 Leo ended up helping me and that was fantastic. I did notice that my sketch work was a save behind so I need to upload my finished sketch file.
-Now my final file looks like this:
+
+## Now my final file looks like this:
 ``` "javascript"
 let scene = 0;
 let WAKE  = true;
